@@ -5,12 +5,18 @@ import NewTweet from './NewTweet';
 function Feed(){
 
   let styling = {
-    border: "1px solid black",
-    margin: '5px'
+
 
   }
   return (
-    <div style={styling}>
+    <div>
+      <style jsx>{`
+        div{
+          border: 1px solid black;
+          margin: 5px;
+          background-color: red;
+        }
+      `}</style>
       <NewTweet img="https://picsum.photos/60/60"/><TweetList/>
     </div>
   );
