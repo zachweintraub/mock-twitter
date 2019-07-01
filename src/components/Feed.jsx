@@ -6,6 +6,7 @@ function Feed(){
 
   let styling = {
     border: "1px solid black",
+    margin: '5px'
 
   }
   return (
