@@ -11,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "html-webpack-plugin": "^2.29.0",
+    "html-webpack-plugin": "^5.5.0",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "styled-jsx": "^3.2.1"
+    "styled-jsx": "^5.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
